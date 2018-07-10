@@ -1,0 +1,125 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\nookorie> cd.User/nookorie/Desktop/myapp
+The system cannot find the path specified.
+
+C:\Users\nookorie>cd/User/nookorie/Desktop/myapp
+The system cannot find the path specified.
+
+C:\Users\nookorie>c/User/nookorie/Desktop/myapp
+'c' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\nookorie>cd Desktop/myapp
+
+C:\Users\nookorie\Desktop\myapp>git init
+Initialized empty Git repository in C:/Users/nookorie/Desktop/myapp/.git/
+
+C:\Users\nookorie\Desktop\myapp>git config --global user.name 'Nkechi Okorie'
+
+C:\Users\nookorie\Desktop\myapp>git config --global user.email 'nkechiokorie207@
+gmail.com'
+
+C:\Users\nookorie\Desktop\myapp>git add index.html
+
+C:\Users\nookorie\Desktop\myapp>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        app.js
+
+
+C:\Users\nookorie\Desktop\myapp>git rm --cached index.html
+rm 'index.html'
+
+C:\Users\nookorie\Desktop\myapp>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        app.js
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\nookorie\Desktop\myapp>git add *.html
+
+C:\Users\nookorie\Desktop\myapp>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        app.js
+
+
+C:\Users\nookorie\Desktop\myapp>git rm --cached index.html
+rm 'index.html'
+
+C:\Users\nookorie\Desktop\myapp>git add .
+
+C:\Users\nookorie\Desktop\myapp>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   app.js
+        new file:   index.html
+
+
+C:\Users\nookorie\Desktop\myapp>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   app.js
+        new file:   index.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+
+C:\Users\nookorie\Desktop\myapp>git add .
+
+C:\Users\nookorie\Desktop\myapp>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   app.js
+        new file:   index.html
+
+
+C:\Users\nookorie\Desktop\myapp>
